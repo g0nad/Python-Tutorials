@@ -18,5 +18,14 @@ first_name = "James"
 last_name = "Payne"
 age = 44
 sex = "Male"
+sent = "%s is %a today."
 
-print((first_name + " " + last_name) * 10)
+# sentence = "%s is 44 years old today."
+
+# print((first_name + " " + last_name) * 10)
+
+# print(first_name + " " + last_name + " " + "is 44 years old today")
+
+# print(sentence % first_name)
+
+print(sent % (first_name, age))
