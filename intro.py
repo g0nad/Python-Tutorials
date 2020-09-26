@@ -29,5 +29,5 @@ print(len(intro_message_3))
 # This prints the first character of the variable, starting at 0
 print(intro_message_3[0])
 
-# This prints the first five character of the variable, starting at 0, 1, 2, 3, 4
+# This prints the first five character of the variable, starting at 0, 1, 2, 3 (give me 0 up to 5 so 0 1 2 3 4 )
 print(intro_message_3[0:5])
