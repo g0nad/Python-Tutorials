@@ -28,3 +28,16 @@ shopList2 = ["Bread", "Butter", "Milk"]
 print(shopList + shopList2)
 # Counts the items on the list or in the array
 print(len(shopList + shopList2))
+# Repeat the list 2 times
+print((shopList) * 2)
+# Repeat both lists 2 times
+print((shopList + shopList2) * 2)
+
+
+# create a number list
+numList = [1, 2, 3, 4, 5, 6, 7, 8, 9, 0]
+print(numList)
+# max number from the list
+print(max(numList))
+# min number from the list
+print(min(numList))
