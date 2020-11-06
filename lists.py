@@ -37,3 +37,6 @@ students["Ethan"] = 15
 # Delete a key from the dictionary
 del students["Elizabeth"]
 students
+
+# how many students are in the dictionary
+len(students)
